@@ -71,7 +71,7 @@
                         <h2>A payment gateway available for humans without the hassle of waiting too long!</h2>
 
                     </div>
-                    <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="co l-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
                         <div class="card mb-3">
 
                             <div class="card-body">
@@ -83,19 +83,26 @@
 
                                 <form class="row g-3 needs-validation" novalidate>
                                     <div class="col-12">
-                                        <label for="yourName" class="form-label">Your Name</label>
-                                        <input type="text" name="name" class="form-control" id="yourName" required>
-                                        <div class="invalid-feedback">Please, enter your name!</div>
+                                        <label for="lastName" class="form-label">Lastname: </label>
+                                        <input type="text" name="lName" class="form-control" id="lName" required>
+                                        <div class="invalid-feedback">Please, enter your Lastname!</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourEmail" class="form-label">Your Email</label>
-                                        <input type="email" name="email" class="form-control" id="yourEmail" required>
-                                        <div class="invalid-feedback">Please enter a valid Email adddress!</div>
+                                        <label for="firstName" class="form-label">Firstname: </label>
+                                        <input type="text" name="fName" class="form-control" id="fName" required>
+                                        <div class="invalid-feedback">Please Enter your Firstname</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourUsername" class="form-label">Username</label>
+                                        <label for="MobileNum" class="form-label">Mobile Number: </label>
+                                        <input type="number" name="mobNumber" class="form-control" id="mobNumber"
+                                            required>
+                                        <div class="invalid-feedback">Enter Your Mobile Number</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label">Username: </label>
                                         <div class="input-group has-validation">
                                             <span class="input-group-text" id="inputGroupPrepend">@</span>
                                             <input type="text" name="username" class="form-control" id="yourUsername"
@@ -104,12 +111,23 @@
                                         </div>
                                     </div>
 
+
+
                                     <div class="col-12">
-                                        <label for="yourPassword" class="form-label">Password</label>
-                                        <input type="password" name="password" class="form-control" id="yourPassword"
-                                            required>
-                                        <div class="invalid-feedback">Please enter your password!</div>
+                                        <label for="passWord" class="form-label">Password: </label>
+                                        <input type="password" name="pass" class="form-control" id="pass" required>
+                                        <div class="invalid-feedback">Enter Your Password</div>
                                     </div>
+
+                                    <div class="col-12">
+                                        <label for="passWord" class="form-label">Confirm Password: </label>
+                                        <input type="password" name="cPass" class="form-control" id="cPass" required>
+                                        <div class="invalid-feedback">Enter Your Confirm Password</div>
+                                    </div>
+
+
+
+
 
                                     <div class="col-12">
                                         <div class="form-check">
