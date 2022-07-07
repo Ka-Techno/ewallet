@@ -479,6 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 100px 0;
   overflow: hidden;
+  background-image: url("../img/hero-bg.jpg");
 }
 
 .section-bg {
